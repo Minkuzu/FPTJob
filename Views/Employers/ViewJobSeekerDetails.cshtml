@@ -1,0 +1,33 @@
+﻿@model JobSeeker
+<div>
+    <h4>@Model.FirstName Detailed Information</h4>
+    <hr />
+    <h5>Profile Picture:</h5>
+    <img src="@Model.ProfilePicture" alt="Profile Picture" width="200" height="200">
+    <dl class="row">
+        <dt class="col-sm-2">
+            Email:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Email
+        </dd>
+        <dt class="col-sm-2">
+            Address:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Address
+        </dd>
+        <dt class="col-sm-2">
+            Phone:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Phone
+        </dd>
+        <dt class="col-sm-2">
+            Skill:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Skill
+        </dd>
+    </dl>
+</div>

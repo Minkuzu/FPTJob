@@ -1,0 +1,155 @@
+﻿@model IEnumerable<FPTJob.Models.JobListing>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Index</h1>
+<form asp-controller="Home" asp-action="Index" method="get">
+    <div class="form-group">
+        <label for="jobTitle">Job Title:</label>
+        <input type="text" id="jobTitle" name="jobTitle" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="categoryName">Category Name:</label>
+        <input type="text" id="categoryName" name="categoryName" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+@if (Model.Any())
+{
+    <h3>Search Results</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.JobTitle)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.JobDescription)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.JobRequirement)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.JobSalary)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DeadLine)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Employer)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.JobCategory)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.JobTitle)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.JobDescription)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.JobRequirement)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.JobSalary)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DeadLine)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Employer.UserName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.JobCategory.JobCategoryName)
+                    </td>
+                    <td>
+                        @if (User.IsInRole("JobSeeker") == true)
+                        {
+                            <form asp-controller="JobApplications" asp-action="Create" method="get">
+                                <input type="hidden" name="id" value="@item.JobListingId" />
+                                <button type="submit" class="btn btn-primary">Apply</button>
+                            </form>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No jobs found matching the search criteria.</p>
+}
+@* <h3>All Job Available</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.JobTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobRequirement)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobSalary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeadLine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobCategory)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobRequirement)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobSalary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeadLine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Employer.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobCategory.JobCategoryName)
+            </td>
+            <td>
+                @if (User.IsInRole("JobSeeker") == true)
+                {
+                    <form asp-controller="JobApplications" asp-action="Create" method="get">
+                        <input type="hidden" name="id" value="@item.JobListingId"/>
+                        <button type="submit" class="btn btn-primary">Apply</button>
+                    </form>    
+                }
+            </td>
+        </tr>
+}
+</tbody>
+</table> *@

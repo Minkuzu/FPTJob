@@ -1,0 +1,66 @@
+﻿@model ViewJobApplicationViewModel
+
+
+<h2>Job Applications for @Model.JobListing.JobTitle</h2>
+
+<form asp-controller="Employers" asp-action="ViewJobApplications" method="get">
+    <input type="hidden" name="jobId" value="@Model.JobListing.JobListingId" />
+    <label>Status:</label>
+    <select name="status">
+        <option value="">All</option>
+        <option value="Applied">Applied</option>
+        <option value="Approved">Approved</option>
+        <option value="Rejected">Rejected</option>
+    </select>
+    <button type="submit" class="btn btn-success">Filter</button>
+</form>
+
+@if (Model.JobApplications.Any())
+{
+    <table class="table table-hover, table table-striped">
+        <thead>
+            <tr>
+                <th>Job Seeker Name</th>
+                <th>Job Seeker Email</th>
+                <th>Resume</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.JobApplications)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.JobSeeker.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.JobSeeker.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Resume)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                    <td>
+                        <form asp-action="UpdateStatus" method="post">
+                            <input type="hidden" name="jobApplicationId" value="@item.JobApplicationId" />
+                            <select name="status">
+                                <option value="Approved">Approved</option>
+                                <option value="Rejected">Rejected</option>
+                            </select>
+                            <button type="submit" class="btn btn-primary">Update Status</button>
+                        </form>
+                        <a href="@Url.Action("ViewJobSeekerDetails", "Employers", new { jobSeekerId = item.JobSeekerId })" class="btn btn-info">View Job Seeker</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No job applications founded yet.</p>
+}
+

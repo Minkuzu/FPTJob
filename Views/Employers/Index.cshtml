@@ -1,0 +1,76 @@
+﻿@model IEnumerable<FPTJob.Models.JobListing>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.JobTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobRequirement)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobSalary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeadLine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobCategory)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.JobTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.JobDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.JobRequirement)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.JobSalary)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DeadLine)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Employer.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.JobCategory.JobCategoryName)
+                </td>
+                <td>
+                    <form asp-controller="Employers" asp-action="ViewJobApplications" method="get">
+                        <input type="hidden" name="id" value="@item.JobListingId" />
+                        <button type="submit" class="btn btn-primary">Applications List</button>
+                    </form>
+                    <a asp-action="Edit" asp-route-id="@item.JobListingId" class="btn btn-success">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.JobListingId" class="btn btn-info">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.JobListingId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

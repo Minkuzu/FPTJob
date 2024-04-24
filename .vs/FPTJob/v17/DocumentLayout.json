@@ -1,0 +1,603 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\GCH1106\\FPTJob\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\controllers\\jobapplicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:controllers\\jobapplicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\controllers\\joblistingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:controllers\\joblistingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\controllers\\jobcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:controllers\\jobcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\controllers\\employerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:controllers\\employerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\users\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\users\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\work.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:work.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\jobapplications\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\jobapplications\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\jobapplications\\editresume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\jobapplications\\editresume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\jobapplications\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\jobapplications\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\joblistings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\joblistings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\joblistings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\joblistings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\joblistings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\joblistings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\jobapplications\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\jobapplications\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\jobapplications\\jobapplicationindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\jobapplications\\jobapplicationindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\employers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\employers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\employers\\employerindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\employers\\employerindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\jobcategories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\jobcategories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\joblistings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\joblistings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\models\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:models\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\employers\\viewjobseekerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\employers\\viewjobseekerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\models\\viewjobapplicationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:models\\viewjobapplicationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\employers\\viewjobapplications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\employers\\viewjobapplications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\models\\jobcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:models\\jobcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|d:\\study\\gch1106\\fptjob\\views\\jobcategories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9D71CD-B446-4123-B3F0-3627638A66A4}|FPTJob.csproj|solutionrelative:views\\jobcategories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 37,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobApplications\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobApplications\\Delete.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobApplications\\Delete.cshtml",
+              "RelativeToolTip": "Views\\JobApplications\\Delete.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T20:11:16.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobApplicationsController.cs",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Controllers\\JobApplicationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobApplicationsController.cs",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Controllers\\JobApplicationsController.cs",
+              "RelativeToolTip": "Controllers\\JobApplicationsController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAIcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T19:59:28.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JobListingsController.cs",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Controllers\\JobListingsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobListingsController.cs",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Controllers\\JobListingsController.cs",
+              "RelativeToolTip": "Controllers\\JobListingsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T18:17:08.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobListings\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobListings\\Details.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobListings\\Details.cshtml",
+              "RelativeToolTip": "Views\\JobListings\\Details.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADQAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T19:58:42.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobApplications\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobApplications\\Details.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobApplications\\Details.cshtml",
+              "RelativeToolTip": "Views\\JobApplications\\Details.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T19:57:32.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobListings\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobListings\\Index.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobListings\\Index.cshtml",
+              "RelativeToolTip": "Views\\JobListings\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADMAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T17:05:40.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployersController.cs",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Controllers\\EmployersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployersController.cs",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Controllers\\EmployersController.cs",
+              "RelativeToolTip": "Controllers\\EmployersController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAEQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:29:31.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobListings\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobListings\\Delete.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobListings\\Delete.cshtml",
+              "RelativeToolTip": "Views\\JobListings\\Delete.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADUAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T19:21:26.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Edit.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Users\\Edit.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T18:57:21.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T18:35:36.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAgwFQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T18:33:20.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobListings\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobListings\\Create.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobListings\\Create.cshtml",
+              "RelativeToolTip": "Views\\JobListings\\Create.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T18:18:32.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EditUserViewModel.cs",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Models\\EditUserViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\EditUserViewModel.cs",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Models\\EditUserViewModel.cs",
+              "RelativeToolTip": "Models\\EditUserViewModel.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T17:47:46.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\Users\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Detail.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\Users\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Users\\Detail.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAADwvy8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T17:44:58.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Index.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "Views\\Users\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAD0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T17:43:31.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminsController.cs",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Controllers\\AdminsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminsController.cs",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Controllers\\AdminsController.cs",
+              "RelativeToolTip": "Controllers\\AdminsController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAowC8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T17:24:02.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobCategories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobCategories\\Index.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobCategories\\Index.cshtml",
+              "RelativeToolTip": "Views\\JobCategories\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADoAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T17:17:49.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobCategories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobCategories\\Create.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobCategories\\Create.cshtml",
+              "RelativeToolTip": "Views\\JobCategories\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAACQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T17:14:08.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JobCategoriesController.cs",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Controllers\\JobCategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobCategoriesController.cs",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Controllers\\JobCategoriesController.cs",
+              "RelativeToolTip": "Controllers\\JobCategoriesController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAIwIwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T17:12:50.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "JobCategory.cs",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Models\\JobCategory.cs",
+              "RelativeDocumentMoniker": "Models\\JobCategory.cs",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Models\\JobCategory.cs",
+              "RelativeToolTip": "Models\\JobCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T17:12:29.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T16:49:10.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAAEMAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T16:48:02.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T16:28:10.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAkwH8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T16:22:01.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ViewJobSeekerDetails.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\Employers\\ViewJobSeekerDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employers\\ViewJobSeekerDetails.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\Employers\\ViewJobSeekerDetails.cshtml",
+              "RelativeToolTip": "Views\\Employers\\ViewJobSeekerDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T14:48:45.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ViewJobApplicationViewModel.cs",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Models\\ViewJobApplicationViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewJobApplicationViewModel.cs",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Models\\ViewJobApplicationViewModel.cs",
+              "RelativeToolTip": "Models\\ViewJobApplicationViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T13:15:13.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmployerIndex.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\Employers\\EmployerIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employers\\EmployerIndex.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\Employers\\EmployerIndex.cshtml",
+              "RelativeToolTip": "Views\\Employers\\EmployerIndex.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwCYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T11:02:31.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JobApplicationIndex.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobApplications\\JobApplicationIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobApplications\\JobApplicationIndex.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobApplications\\JobApplicationIndex.cshtml",
+              "RelativeToolTip": "Views\\JobApplications\\JobApplicationIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T08:49:47.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\Employers\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employers\\Index.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\Employers\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employers\\Index.cshtml",
+              "ViewState": "AQIAACsAAAAAAAAAAAAwwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T10:59:00.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Work.txt",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Work.txt",
+              "RelativeDocumentMoniker": "Work.txt",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Work.txt",
+              "RelativeToolTip": "Work.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-18T10:51:16.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ViewJobApplications.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\Employers\\ViewJobApplications.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employers\\ViewJobApplications.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\Employers\\ViewJobApplications.cshtml",
+              "RelativeToolTip": "Views\\Employers\\ViewJobApplications.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T10:46:39.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditResume.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobApplications\\EditResume.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobApplications\\EditResume.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobApplications\\EditResume.cshtml",
+              "RelativeToolTip": "Views\\JobApplications\\EditResume.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T09:40:50.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobApplications\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobApplications\\Create.cshtml",
+              "ToolTip": "D:\\Study\\GCH1106\\FPTJob\\Views\\JobApplications\\Create.cshtml",
+              "RelativeToolTip": "Views\\JobApplications\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T09:19:23.921Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 5,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{dee22b65-9761-4a26-8fb2-759b971d6dfc}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

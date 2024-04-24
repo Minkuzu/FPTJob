@@ -1,0 +1,27 @@
+V. Employers must have the capability to view detailed profiles of job seekers.
+V. Tools for sorting and filtering candidates based on relevant criteria should be available.
+V. Job seekers shall have the ability to search for job listings based on various criteria such as job title, location, and industry.
+V. Admins should review and approve/reject new job categories requested by employers.
+V. Che field trong joblisting create, edit
+V. Fix Users
+1. User Authentication and Roles
+V. The system shall provide a secure login mechanism for both employers and job seekers.
+V. Users will be categorized into two roles: Employers and Job Seekers.
+2. Employer Features
+V. Employers shall have the ability to create and post job listings.
+V. Each job listing must include details such as job title, job description, required qualifications, and application deadline.
+V. Employers should be able to view and manage incoming job applications.
+V. The system shall provide tools for employers to shortlist, review, and respond to job applications.
+V. Employers must have the capability to view detailed profiles of job seekers.
+V. Tools for sorting and filtering candidates based on relevant criteria should be available.
+3. Job Seeker Features
+V. Job seekers shall have the ability to search for job listings based on various criteria such as job title, location, and industry.
+V. Job seekers should be able to apply to job listings by writing a short self-introduction or submitting their resumes and cover letters
+X. Confirmation notifications must be sent to job seekers upon successful application submission.
+V. Job seekers shall maintain a profile with personal and professional information.
+V. The system must allow job seekers to update their profiles, including resumes and contact information.
+4. Admin Features
+V. Admins shall have the ability to manage user accounts, including account creation, suspension, and deletion.
+V. Password reset functionality must be available for both employers and job seekers.
+V. Admins should review and approve/reject new job categories requested by employers.
+X. Automated notifications should inform employers of the category approval status.
