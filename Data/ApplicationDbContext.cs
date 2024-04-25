@@ -17,11 +17,6 @@ namespace FPTJob.Data
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-            //builder.Entity<JobApplication>()
-            //    .HasOne(ja => ja.JobListing)
-            //    .WithMany(jl => jl.JobApplications)
-            //    .HasForeignKey(ja => ja.JobListingId)
-            //    .IsRequired();
             builder.HasDefaultSchema("dbo");
             builder.Entity<ApplicationUser>
                 (
