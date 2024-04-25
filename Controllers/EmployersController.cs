@@ -46,8 +46,6 @@ namespace FPTJob.Controllers
                 ViewBag.ErrorMessage = $"User with Id = {user.Id} cannot be found";
                 return NotFound();
             }
-
-            // Check if the job belongs to the current employer
             var jobListing = await _context.JobListings
                 .Include(j => j.JobApplications)
                     .ThenInclude(js => js.JobSeeker)
@@ -62,7 +60,6 @@ namespace FPTJob.Controllers
             {
                 filteredApplications = filteredApplications.Where(a => a.Status == status).ToList();
             }
-            //var appliedApplications = jobListing.JobApplications.Where(a => a.Status == "Applied").ToList();
             var viewModel = new ViewJobApplicationViewModel
             {
                 JobListing = jobListing,
