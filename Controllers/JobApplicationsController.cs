@@ -81,10 +81,6 @@ namespace FPTJob.Controllers
                 .Include(jl => jl.JobListing)
                 .Where(j => j.JobSeekerId == user.Id)
                 .ToList();
-            //var model = await _context.JobApplications
-            //    .Include(ja => ja.JobSeeker)
-            //    .Where(a => a.JobSeekerId == HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value)
-            //    .ToListAsync();
             return View(jobApplications);
         }
         // GET: JobApplications/Details/5
