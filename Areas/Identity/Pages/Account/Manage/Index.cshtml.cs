@@ -31,37 +31,21 @@ namespace FPTJob.Areas.Identity.Pages.Account.Manage
             _webHostEnvironment = webHostEnvironment;
         }
 
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
+
         public string Username { get; set; }
 
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
+
         [TempData]
         public string StatusMessage { get; set; }
 
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
+
         [BindProperty]
         public InputModel Input { get; set; }
 
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
+
         public class InputModel
         {
-            /// <summary>
-            ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-            ///     directly from your code. This API may change or be removed in future releases.
-            /// </summary>
-            /// [Display(Name = "First Name")]
+            [Display(Name = "First Name")]
             public string FirstName { get; set; }
             [Display(Name = "Last Name")]
             public string LastName { get; set; }
@@ -92,7 +76,6 @@ namespace FPTJob.Areas.Identity.Pages.Account.Manage
                 var lastName = user.LastName;
                 var phone = user.Phone;
                 var skill = jobSeeker.Skill;
-                //var company = employer.Company;
                 var profilePicture = user.ProfilePicture;
 
                 Username = userName;
@@ -206,72 +189,18 @@ namespace FPTJob.Areas.Identity.Pages.Account.Manage
             if (User.IsInRole("JobSeeker"))
             {
                 var jobSeeker = (JobSeeker)user;
-                jobSeeker.Skill = Input.Skill; // Update Skill for JobSeeker
+                jobSeeker.Skill = Input.Skill; 
                 await _userManager.UpdateAsync(user);
             }
             else if (User.IsInRole("Employer"))
             {
                 var employer = (Employer)user;
-                employer.Company = Input.Company; // Update Company for Employer
+                employer.Company = Input.Company; 
                 await _userManager.UpdateAsync(user);
             }
-            //if (Input.ProfilePicture != profilePicture)
-            //{
-            //    user.ProfilePicture = profilePicture;
-            //    await _userManager.UpdateAsync(user);
-            //}
-            //if (model.ProfilePicture != null && model.ProfilePicture.Length > 0)
-            //{
-            //    string uniqueFilename = "abc";
-            //    string uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images");
-            //    uniqueFilename = Guid.NewGuid().ToString() + "_" + model.ProfileImage.FileName;
-            //    string filepath = Path.Combine(uploadsFolder, uniqueFilename);
-            //    using (var fileStream = new FileStream(filepath, FileMode.Create))
-            //    {
-            //        model.ProfileImage.CopyTo(fileStream);
-            //    }
-            //    var profilePicture = uniqueFilename;
-            //    user.ProfilePicture = profilePicture;
-            //    await _userManager.UpdateAsync(user);
-            //}
             await _signInManager.RefreshSignInAsync(user);
             StatusMessage = "Your profile has been updated";
             return RedirectToPage();
         }
-        //public string UploadedFile(ApplicationUser model)
-        //{
-        //    if (model.ProfilePicture != null && model.ProfilePicture.Length > 0)
-        //    {
-        //        string uniqueFilename = "abc";
-        //        string uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images");
-        //        uniqueFilename = Guid.NewGuid().ToString() + "_" + model.ProfileImage.FileName;
-        //        string filepath = Path.Combine(uploadsFolder, uniqueFilename);
-        //        using (var fileStream = new FileStream(filepath, FileMode.Create))
-        //        {
-        //            model.ProfileImage.CopyTo(fileStream);
-        //        }
-        //        return uniqueFilename;
-        //    }
-        //}
-        //public IActionResult New(EmployeeVM model)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        string uniqueFileName = UploadedFile(model);
-        //        Employee employee = new Employee
-        //        {
-        //            FirstName = model.FirstName,
-        //            LastName = model.LastName,
-        //            Gender = model.Gender,
-        //            Age = model.Age,
-        //            Salary = model.Salary,
-        //            ProfilePicture = uniqueFileName
-        //        };
-        //        dbContext.Add(employee);
-        //        dbContext.SaveChanges();
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    return View();
-        //}
     }
 }
