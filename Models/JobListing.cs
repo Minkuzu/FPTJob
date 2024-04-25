@@ -4,7 +4,7 @@ namespace FPTJob.Models
 {
     public class JobListing
     {
-        [Key]
+        [Key] 
         public int JobListingId { get; set; }
         [Display(Name = "Job Title")]
         public string JobTitle { get; set; }
@@ -23,5 +23,6 @@ namespace FPTJob.Models
         public virtual Employer? Employer { get; set; }
         public virtual JobCategory? JobCategory { get; set; }
         public virtual ICollection<JobApplication>? JobApplications { get; set; }
+        //Don't add a new attribute related to relationships or it will ruin
     }
 }
